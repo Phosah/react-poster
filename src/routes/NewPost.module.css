@@ -29,6 +29,7 @@
 .actions {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -40,6 +41,11 @@
   border-radius: 4px;
   background-color: #34036c;
   color: #e5d5f7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .actions button:hover {
